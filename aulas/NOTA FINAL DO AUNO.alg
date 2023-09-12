@@ -1,0 +1,38 @@
+algoritmo "NOTA FINAL DO ALUNO"
+// ELA SOMA OS BIMESTRE DO ALUNO E GERA A NOTA FINAL LEVANDO
+// APROVAÇÃO OU REPROVAÇÃO :
+// Autor EU MSM KKKKK :
+// Data : 08/06/2022
+// Seção de Declarações
+var
+N1, N2, N3, N4, NOTAF: INTEIRO
+APROV: LOGICO
+
+inicio
+escreval ("---------------------------")
+Escreval ("COLEGIO ESTADUAL PUDIM SECO")
+ESCREVAL ("---------------------------")
+ESCREVAL
+escreva (" NOTA PRIMEIRO BIMESTRE:")
+LEIA(N1)
+ESCREVA (" NOTA SEGUNDO BIMESTRE:")
+LEIA(N2)
+ESCREVA (" NOTA TERCEIRO BIMESTRE:")
+LEIA(N3)
+ESCREVA (" NOTA QUARTO BIMESTRE:")
+LEIA(N4)
+NOTAF <- N1+N2+N3+N4
+SE (NOTAF >= 200) ENTAO
+   APROV <- VERDADEIRO
+SENAO
+   APROV <- FALSO
+FIMSE
+ESCREVAL("------------------------------")
+ESCREVA ( "SUA NOTA FINAL É ",NOTAF,)
+SE (APROV) ENTAO
+   ESCREVAL ("PARABÉNS VOCÊ FOI APROVADO")
+SENAO
+   ESCREVAL ("ALUNO REPROVADO")
+FIMSE
+ESCREVAL("------------------------------")
+fimalgoritmo
